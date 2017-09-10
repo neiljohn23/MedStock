@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0414BFDE6299CB09F47886 /* Pods_MedHacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E2C531AD3EB446EF0D4F96 /* Pods_MedHacks.framework */; };
+		478F02791F63451300FAC13F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478F02781F63451300FAC13F /* AppDelegate.swift */; };
+		478F027B1F63451300FAC13F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478F027A1F63451300FAC13F /* ViewController.swift */; };
+		478F027E1F63451300FAC13F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478F027C1F63451300FAC13F /* Main.storyboard */; };
+		478F02801F63451300FAC13F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478F027F1F63451300FAC13F /* Assets.xcassets */; };
+		478F02831F63451300FAC13F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478F02811F63451300FAC13F /* LaunchScreen.storyboard */; };
+		478F028E1F63451300FAC13F /* MedHacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478F028D1F63451300FAC13F /* MedHacksTests.swift */; };
+		478F02991F63451300FAC13F /* MedHacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478F02981F63451300FAC13F /* MedHacksUITests.swift */; };
+		47A183451F649F130097573D /* dataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A183441F649F130097573D /* dataModel.swift */; };
+		47D44D7E1F64291E00381130 /* MenuScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D44D7D1F64291E00381130 /* MenuScreenViewController.swift */; };
+		47D44D801F643C3600381130 /* ProductViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D44D7F1F643C3600381130 /* ProductViewVC.swift */; };
+		4E4C2167B2B414FF7F2A14DB /* Pods_MedHacksUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF54157583F9650869D4442 /* Pods_MedHacksUITests.framework */; };
+		94DD1610249CA398AD2A5363 /* Pods_MedHacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25A07492CBA3B966B67A14B /* Pods_MedHacksTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		478F028A1F63451300FAC13F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 478F026D1F63451200FAC13F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 478F02741F63451300FAC13F;
+			remoteInfo = MedHacks;
+		};
+		478F02951F63451300FAC13F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 478F026D1F63451200FAC13F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 478F02741F63451300FAC13F;
+			remoteInfo = MedHacks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AF54157583F9650869D4442 /* Pods_MedHacksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedHacksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		478F02751F63451300FAC13F /* MedHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		478F02781F63451300FAC13F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		478F027A1F63451300FAC13F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		478F027D1F63451300FAC13F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		478F027F1F63451300FAC13F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		478F02821F63451300FAC13F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		478F02841F63451300FAC13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478F02891F63451300FAC13F /* MedHacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedHacksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		478F028D1F63451300FAC13F /* MedHacksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedHacksTests.swift; sourceTree = "<group>"; };
+		478F028F1F63451300FAC13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478F02941F63451300FAC13F /* MedHacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedHacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		478F02981F63451300FAC13F /* MedHacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedHacksUITests.swift; sourceTree = "<group>"; };
+		478F029A1F63451300FAC13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47A183441F649F130097573D /* dataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataModel.swift; sourceTree = "<group>"; };
+		47D44D7D1F64291E00381130 /* MenuScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScreenViewController.swift; sourceTree = "<group>"; };
+		47D44D7F1F643C3600381130 /* ProductViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewVC.swift; sourceTree = "<group>"; };
+		52AD29CAC9138BC2078C7B78 /* Pods-MedHacksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedHacksTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedHacksTests/Pods-MedHacksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		60E2C531AD3EB446EF0D4F96 /* Pods_MedHacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedHacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67AC955F95BF3955550A467E /* Pods-MedHacksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedHacksUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedHacksUITests/Pods-MedHacksUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D9041EE73F0C390094E7D0E /* Pods-MedHacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedHacks.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedHacks/Pods-MedHacks.release.xcconfig"; sourceTree = "<group>"; };
+		86C5E2293B038DFF9FA9F161 /* Pods-MedHacksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedHacksTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedHacksTests/Pods-MedHacksTests.release.xcconfig"; sourceTree = "<group>"; };
+		C25A07492CBA3B966B67A14B /* Pods_MedHacksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedHacksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6748C8E1C12532391EF2D70 /* Pods-MedHacksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedHacksUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedHacksUITests/Pods-MedHacksUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FE30C84D212250151C2738F2 /* Pods-MedHacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedHacks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedHacks/Pods-MedHacks.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		478F02721F63451300FAC13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0414BFDE6299CB09F47886 /* Pods_MedHacks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478F02861F63451300FAC13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DD1610249CA398AD2A5363 /* Pods_MedHacksTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478F02911F63451300FAC13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4C2167B2B414FF7F2A14DB /* Pods_MedHacksUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		478F026C1F63451200FAC13F = {
+			isa = PBXGroup;
+			children = (
+				478F02771F63451300FAC13F /* MedHacks */,
+				478F028C1F63451300FAC13F /* MedHacksTests */,
+				478F02971F63451300FAC13F /* MedHacksUITests */,
+				478F02761F63451300FAC13F /* Products */,
+				891E2E96D127F3F293998DE5 /* Pods */,
+				510EB0370FE966545C941656 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		478F02761F63451300FAC13F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				478F02751F63451300FAC13F /* MedHacks.app */,
+				478F02891F63451300FAC13F /* MedHacksTests.xctest */,
+				478F02941F63451300FAC13F /* MedHacksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		478F02771F63451300FAC13F /* MedHacks */ = {
+			isa = PBXGroup;
+			children = (
+				478F02781F63451300FAC13F /* AppDelegate.swift */,
+				478F027A1F63451300FAC13F /* ViewController.swift */,
+				47D44D7D1F64291E00381130 /* MenuScreenViewController.swift */,
+				478F027C1F63451300FAC13F /* Main.storyboard */,
+				47A183441F649F130097573D /* dataModel.swift */,
+				47D44D7F1F643C3600381130 /* ProductViewVC.swift */,
+				478F027F1F63451300FAC13F /* Assets.xcassets */,
+				478F02811F63451300FAC13F /* LaunchScreen.storyboard */,
+				478F02841F63451300FAC13F /* Info.plist */,
+			);
+			path = MedHacks;
+			sourceTree = "<group>";
+		};
+		478F028C1F63451300FAC13F /* MedHacksTests */ = {
+			isa = PBXGroup;
+			children = (
+				478F028D1F63451300FAC13F /* MedHacksTests.swift */,
+				478F028F1F63451300FAC13F /* Info.plist */,
+			);
+			path = MedHacksTests;
+			sourceTree = "<group>";
+		};
+		478F02971F63451300FAC13F /* MedHacksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				478F02981F63451300FAC13F /* MedHacksUITests.swift */,
+				478F029A1F63451300FAC13F /* Info.plist */,
+			);
+			path = MedHacksUITests;
+			sourceTree = "<group>";
+		};
+		510EB0370FE966545C941656 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60E2C531AD3EB446EF0D4F96 /* Pods_MedHacks.framework */,
+				C25A07492CBA3B966B67A14B /* Pods_MedHacksTests.framework */,
+				1AF54157583F9650869D4442 /* Pods_MedHacksUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		891E2E96D127F3F293998DE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE30C84D212250151C2738F2 /* Pods-MedHacks.debug.xcconfig */,
+				7D9041EE73F0C390094E7D0E /* Pods-MedHacks.release.xcconfig */,
+				52AD29CAC9138BC2078C7B78 /* Pods-MedHacksTests.debug.xcconfig */,
+				86C5E2293B038DFF9FA9F161 /* Pods-MedHacksTests.release.xcconfig */,
+				67AC955F95BF3955550A467E /* Pods-MedHacksUITests.debug.xcconfig */,
+				E6748C8E1C12532391EF2D70 /* Pods-MedHacksUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		478F02741F63451300FAC13F /* MedHacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478F029D1F63451300FAC13F /* Build configuration list for PBXNativeTarget "MedHacks" */;
+			buildPhases = (
+				CEFFBB3B3EC8562489115D3D /* [CP] Check Pods Manifest.lock */,
+				478F02711F63451300FAC13F /* Sources */,
+				478F02721F63451300FAC13F /* Frameworks */,
+				478F02731F63451300FAC13F /* Resources */,
+				CF901B79DAA45C44FDF490DC /* [CP] Embed Pods Frameworks */,
+				7C64B9CA85E356C8B6E9A618 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedHacks;
+			productName = MedHacks;
+			productReference = 478F02751F63451300FAC13F /* MedHacks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		478F02881F63451300FAC13F /* MedHacksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478F02A01F63451300FAC13F /* Build configuration list for PBXNativeTarget "MedHacksTests" */;
+			buildPhases = (
+				F5AC2FD889EAC3B6201D7361 /* [CP] Check Pods Manifest.lock */,
+				478F02851F63451300FAC13F /* Sources */,
+				478F02861F63451300FAC13F /* Frameworks */,
+				478F02871F63451300FAC13F /* Resources */,
+				4AFDF98CE8F8D381A14A77D0 /* [CP] Embed Pods Frameworks */,
+				A06C7E6B3E3BF7B1B8B39BC4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				478F028B1F63451300FAC13F /* PBXTargetDependency */,
+			);
+			name = MedHacksTests;
+			productName = MedHacksTests;
+			productReference = 478F02891F63451300FAC13F /* MedHacksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		478F02931F63451300FAC13F /* MedHacksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478F02A31F63451300FAC13F /* Build configuration list for PBXNativeTarget "MedHacksUITests" */;
+			buildPhases = (
+				AEFD2A7B42701221B42835DD /* [CP] Check Pods Manifest.lock */,
+				478F02901F63451300FAC13F /* Sources */,
+				478F02911F63451300FAC13F /* Frameworks */,
+				478F02921F63451300FAC13F /* Resources */,
+				0B960B7CDA89C8C033CF080D /* [CP] Embed Pods Frameworks */,
+				CC1FE2B5FD032CCA5287F5C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				478F02961F63451300FAC13F /* PBXTargetDependency */,
+			);
+			name = MedHacksUITests;
+			productName = MedHacksUITests;
+			productReference = 478F02941F63451300FAC13F /* MedHacksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		478F026D1F63451200FAC13F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Neil Johnson";
+				TargetAttributes = {
+					478F02741F63451300FAC13F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8YXVQT4J5F;
+						ProvisioningStyle = Automatic;
+					};
+					478F02881F63451300FAC13F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 478F02741F63451300FAC13F;
+					};
+					478F02931F63451300FAC13F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 478F02741F63451300FAC13F;
+					};
+				};
+			};
+			buildConfigurationList = 478F02701F63451200FAC13F /* Build configuration list for PBXProject "MedHacks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 478F026C1F63451200FAC13F;
+			productRefGroup = 478F02761F63451300FAC13F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				478F02741F63451300FAC13F /* MedHacks */,
+				478F02881F63451300FAC13F /* MedHacksTests */,
+				478F02931F63451300FAC13F /* MedHacksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		478F02731F63451300FAC13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478F02831F63451300FAC13F /* LaunchScreen.storyboard in Resources */,
+				478F02801F63451300FAC13F /* Assets.xcassets in Resources */,
+				478F027E1F63451300FAC13F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478F02871F63451300FAC13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478F02921F63451300FAC13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B960B7CDA89C8C033CF080D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedHacksUITests/Pods-MedHacksUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AFDF98CE8F8D381A14A77D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedHacksTests/Pods-MedHacksTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C64B9CA85E356C8B6E9A618 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedHacks/Pods-MedHacks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A06C7E6B3E3BF7B1B8B39BC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedHacksTests/Pods-MedHacksTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEFD2A7B42701221B42835DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedHacksUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC1FE2B5FD032CCA5287F5C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedHacksUITests/Pods-MedHacksUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEFFBB3B3EC8562489115D3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedHacks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF901B79DAA45C44FDF490DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MedHacks/Pods-MedHacks-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedHacks/Pods-MedHacks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5AC2FD889EAC3B6201D7361 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedHacksTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		478F02711F63451300FAC13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478F027B1F63451300FAC13F /* ViewController.swift in Sources */,
+				478F02791F63451300FAC13F /* AppDelegate.swift in Sources */,
+				47D44D7E1F64291E00381130 /* MenuScreenViewController.swift in Sources */,
+				47A183451F649F130097573D /* dataModel.swift in Sources */,
+				47D44D801F643C3600381130 /* ProductViewVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478F02851F63451300FAC13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478F028E1F63451300FAC13F /* MedHacksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478F02901F63451300FAC13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478F02991F63451300FAC13F /* MedHacksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		478F028B1F63451300FAC13F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 478F02741F63451300FAC13F /* MedHacks */;
+			targetProxy = 478F028A1F63451300FAC13F /* PBXContainerItemProxy */;
+		};
+		478F02961F63451300FAC13F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 478F02741F63451300FAC13F /* MedHacks */;
+			targetProxy = 478F02951F63451300FAC13F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		478F027C1F63451300FAC13F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478F027D1F63451300FAC13F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		478F02811F63451300FAC13F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478F02821F63451300FAC13F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		478F029B1F63451300FAC13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		478F029C1F63451300FAC13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		478F029E1F63451300FAC13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE30C84D212250151C2738F2 /* Pods-MedHacks.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8YXVQT4J5F;
+				INFOPLIST_FILE = MedHacks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NJEnterprises.MedHacks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		478F029F1F63451300FAC13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D9041EE73F0C390094E7D0E /* Pods-MedHacks.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8YXVQT4J5F;
+				INFOPLIST_FILE = MedHacks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NJEnterprises.MedHacks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		478F02A11F63451300FAC13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52AD29CAC9138BC2078C7B78 /* Pods-MedHacksTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MedHacksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NJEnterprises.MedHacksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedHacks.app/MedHacks";
+			};
+			name = Debug;
+		};
+		478F02A21F63451300FAC13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C5E2293B038DFF9FA9F161 /* Pods-MedHacksTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MedHacksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NJEnterprises.MedHacksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedHacks.app/MedHacks";
+			};
+			name = Release;
+		};
+		478F02A41F63451300FAC13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67AC955F95BF3955550A467E /* Pods-MedHacksUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MedHacksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NJEnterprises.MedHacksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MedHacks;
+			};
+			name = Debug;
+		};
+		478F02A51F63451300FAC13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6748C8E1C12532391EF2D70 /* Pods-MedHacksUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MedHacksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NJEnterprises.MedHacksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MedHacks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		478F02701F63451200FAC13F /* Build configuration list for PBXProject "MedHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478F029B1F63451300FAC13F /* Debug */,
+				478F029C1F63451300FAC13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478F029D1F63451300FAC13F /* Build configuration list for PBXNativeTarget "MedHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478F029E1F63451300FAC13F /* Debug */,
+				478F029F1F63451300FAC13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478F02A01F63451300FAC13F /* Build configuration list for PBXNativeTarget "MedHacksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478F02A11F63451300FAC13F /* Debug */,
+				478F02A21F63451300FAC13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478F02A31F63451300FAC13F /* Build configuration list for PBXNativeTarget "MedHacksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478F02A41F63451300FAC13F /* Debug */,
+				478F02A51F63451300FAC13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 478F026D1F63451200FAC13F /* Project object */;
+}
